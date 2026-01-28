@@ -1,0 +1,550 @@
+{
+ "geoms": {
+ "geom1_line_bisection": {
+ "geom": "line",
+"classed": "geom1_line_bisection",
+"aes": {
+ "x": "x",
+"y": "y" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#0000FF",
+"size":        1 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom2_rect_bisection": {
+ "geom": "rect",
+"classed": "geom2_rect_bisection",
+"aes": {
+ "xmin": "a",
+"xmax": "b",
+"ymin": "min(curve_df$y) - 0.5",
+"ymax": "max(curve_df$y) + 0.5",
+"showSelected1": "iteration" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"fill": "#FFA500",
+"alpha":      0.2,
+"showSelected": "iteration",
+"help_showSelected": "iteration" 
+},
+"types": {
+ "xmin": "numeric",
+"xmax": "numeric",
+"ymin": "numeric",
+"ymax": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom3_point_bisection": {
+ "geom": "point",
+"classed": "geom3_point_bisection",
+"aes": {
+ "x": "m",
+"y": "f_m",
+"showSelected1": "iteration" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#FF0000",
+"alpha":      0.4,
+"size":        2,
+"showSelected": "iteration",
+"help_showSelected": "iteration" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom4_segment_bisection": {
+ "geom": "segment",
+"classed": "geom4_segment_bisection",
+"aes": {
+ "x": "m",
+"y": "min(curve_df$y) - 0.5",
+"xend": "m",
+"yend": "f_m",
+"showSelected1": "iteration" 
+},
+"params": {
+ "lineend": "butt",
+"na.rm": false,
+"na.rm": false,
+"colour": "#FF0000",
+"size":      1.2,
+"showSelected": "iteration",
+"help_showSelected": "iteration" 
+},
+"types": {
+ "x": "numeric",
+"xend": "numeric",
+"y": "numeric",
+"yend": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom5_point_bisection": {
+ "geom": "point",
+"classed": "geom5_point_bisection",
+"aes": {
+ "x": "a",
+"y": "f_a",
+"showSelected1": "iteration" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#006400",
+"size":        3,
+"showSelected": "iteration",
+"help_showSelected": "iteration" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom6_point_bisection": {
+ "geom": "point",
+"classed": "geom6_point_bisection",
+"aes": {
+ "x": "b",
+"y": "f_b",
+"showSelected1": "iteration" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#006400",
+"size":        3,
+"showSelected": "iteration",
+"help_showSelected": "iteration" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom7_point_bisection": {
+ "geom": "point",
+"classed": "geom7_point_bisection",
+"aes": {
+ "x": "m",
+"y": "f_m",
+"showSelected1": "iteration" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#FF0000",
+"size":        4,
+"showSelected": "iteration",
+"help_showSelected": "iteration" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom8_text_bisection": {
+ "geom": "text",
+"classed": "geom8_text_bisection",
+"aes": {
+ "x": "a",
+"y": "f_a - 0.3",
+"label": "paste0(\"a=\", round(a, 2), \"\\n\", \"f(a)=\", round(f_a, 2))",
+"showSelected1": "iteration" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"colour": "#006400",
+"showSelected": "iteration",
+"help_showSelected": "iteration",
+"anchor": "end" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"label": "character",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom9_text_bisection": {
+ "geom": "text",
+"classed": "geom9_text_bisection",
+"aes": {
+ "x": "b",
+"y": "f_b - 0.3",
+"label": "paste0(\"b=\", round(b, 2), \"\\n\", \"f(b)=\", round(f_b, 2))",
+"showSelected1": "iteration" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"colour": "#006400",
+"showSelected": "iteration",
+"help_showSelected": "iteration",
+"anchor": "start" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"label": "character",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom10_text_bisection": {
+ "geom": "text",
+"classed": "geom10_text_bisection",
+"aes": {
+ "x": "m",
+"y": "f_m + 0.1",
+"label": "paste0(\"m=\", round(m, 2), \"\\n\", \"f(m)=\", round(f_m, 2))",
+"showSelected1": "iteration" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"colour": "#FF0000",
+"vjust":        0,
+"showSelected": "iteration",
+"help_showSelected": "iteration" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"label": "character",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"time": {
+ "variable": "iteration",
+"ms":     2000,
+"sequence": [ "1", "2", "3", "4", "5" ] 
+},
+"selectors": {
+ "iteration": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"selected": "1",
+"levels": [ "1", "2", "3", "4", "5" ],
+"update": [
+ "geom2_rect_bisection",
+"geom3_point_bisection",
+"geom4_segment_bisection",
+"geom5_point_bisection",
+"geom6_point_bisection",
+"geom7_point_bisection",
+"geom8_text_bisection",
+"geom9_text_bisection",
+"geom10_text_bisection" 
+] 
+} 
+},
+"plots": {
+ "bisection": {
+ "panel_margin_lines":     0.32,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": [],
+"panel_border": [],
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+     0.5,
+       1,
+     1.5,
+       2 
+] 
+],
+"y": [
+ [
+       -2,
+      -1,
+       0,
+       1,
+       2 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1,
+    1.25,
+     1.5,
+    1.75,
+       2 
+] 
+],
+"y": [
+ [
+     -2.5,
+      -2,
+    -1.5,
+      -1,
+    -0.5,
+       0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        0,
+     0.5,
+       1,
+     1.5,
+       2 
+],
+"xlab": [
+ "0.0",
+"0.5",
+"1.0",
+"1.5",
+"2.0" 
+],
+"xrange": [     -0.1,      2.1 ],
+"xline": false,
+"xticks": false,
+"y": [
+       -2,
+      -1,
+       0,
+       1,
+       2 
+],
+"ylab": [
+ "-2",
+"-1",
+"0",
+"1",
+"2" 
+],
+"yrange": [    -2.75,     2.75 ],
+"yline": false,
+"yticks": false 
+},
+"xtitle": "x",
+"strip_text_xsize": "14pt",
+"xsize": "14pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "f(x)",
+"strip_text_ysize": "14pt",
+"ysize": "14pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "0.0",
+"0.5",
+"1.0",
+"1.5",
+"2.0" 
+],
+"ylabs": [
+ "-2",
+"-1",
+"0",
+"1",
+"2" 
+],
+"title": "Bisection Method Steps with History Trace",
+"title_size": "16.8pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_line_bisection",
+"geom2_rect_bisection",
+"geom3_point_bisection",
+"geom4_segment_bisection",
+"geom5_point_bisection",
+"geom6_point_bisection",
+"geom7_point_bisection",
+"geom8_text_bisection",
+"geom9_text_bisection",
+"geom10_text_bisection" 
+] 
+} 
+} 
+}
